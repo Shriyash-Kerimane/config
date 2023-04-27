@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     password: ${DB_PASSWORD:root}
-    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/scam/}
+    url: ${JDBC_URL:jdbc:mariadb://localhost:3306/scam}
     username: ${DB_USER:root}
   application:
     name: microservice-1
